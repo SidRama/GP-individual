@@ -5,7 +5,7 @@ This repository contains the Matlab scripts used in our [paper](https://doi.org/
 Overview
 ---------------
 Analysing data from complex diseases in a personalised manner to identify disrupted pathways can improve elucidation of the disease progression. We have developed a personalised statistical method that robustly models gene expression time-course datasets from complex heterogeneous diseases and summarises the gene-level results on the level of pathways, i.e. groups of genes involved in particular biological processes that drive the disease. By analysing three Type 1 Diabetes datasets using this method, we demonstrate that our personalised method reveals more insight into the biological processes involved in disease progression over time and in specific time intervals, than non-personalised methods. With its robust capabilities of identifying numerous disease-relevant pathways, this method could be further developed for predicting events in the progression of heterogeneous diseases, pursuing preventive treatments and even biomarker identification.
-![Overview of the method. A schematic illustration of our personalised approach and a population-wide approach (combined method). In the personalised approach, we identify DEGs independently for each case-control pair and combine results at the pathway-level.](./images/overview.pdf)
+![Overview of the method. A schematic illustration of our personalised approach and a population-wide approach (combined method). In the personalised approach, we identify DEGs independently for each case-control pair and combine results at the pathway-level.](./images/overview.png)
 
 #### Our personalised method
 We present a method that models time-course data in a personalised manner using Gaussian processes in order to identify differentially expressed genes (DEGs); and combines the DEG lists on a pathway-level using a permutation-based empirical hypothesis testing in order to overcome gene-level variability and inconsistencies prevalent to datasets from heterogenous diseases. Our method can be applied to study the time-course dynamics as well as specific time-windows of heterogeneous diseases.
@@ -46,4 +46,4 @@ Authors
 
 License
 ---------------
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
